@@ -24,6 +24,6 @@ public class AdvancedLoops {
             counter++;
         }
         System.out.println("Hazel jsi " + counter);
-        System.out.println("Pridani radku");
+        System.out.println("Pridani");
     }
 }
