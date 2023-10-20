@@ -7,12 +7,18 @@ public class Primenumbers {
         Scanner sc = new Scanner(System.in);
         System.out.println("Zadej maximalni hranici");
         int input = sc.nextInt();
+        outer:
         for (int i = 2; i <input; i++) {
+
+            inner:
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
-                    System.out.println(i);
+                    continue aaaa;
+
                 }
             }
+
+
         }
     }
 }
