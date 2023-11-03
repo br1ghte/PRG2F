@@ -18,4 +18,4 @@ public class arrays {
             System.out.println(poleJinak[i]);
         }
     }
-}
+}.
