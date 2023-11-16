@@ -41,7 +41,7 @@ public class GuessArray {
             }
             //uz uhddl vse
             if (score >= guessarray.length * 100) {
-                break
+                break;
             }
 
         }
