@@ -8,11 +8,11 @@ public class test {
         Scanner sc = new Scanner(System.in);
         String[] krestniJmena = {"Jenda", "Karel", "Matej", "Igor"};
         String[] prijmeni = {"Mach", "Robertson", "Hinduk", "Mares"};
-        String random = "";
+        int random = 0;
         for (int i = 0; i < krestniJmena.length; i++) {
-
+            random = (int) (Math.random()*4);
         }
-        System.out.println(random);
+        System.out.println(krestniJmena[random] + " " + prijmeni[random]);
 
         String vety = "Dneska jsem mel rizek. Mel jsem dneska rizek? Ty hajzle!";
         int pocet = 0;
