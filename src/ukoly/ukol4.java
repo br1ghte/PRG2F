@@ -4,9 +4,6 @@ import java.util.ArrayList;
 
 public class ukol4 {
 
-import java.util.ArrayList;
-import java.util.Collections;
-
     public class ex4 {
         public static void main(String[] args) {
             ArrayList<Integer> numList = new ArrayList<>();
