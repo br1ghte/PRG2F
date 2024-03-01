@@ -28,28 +28,28 @@ public class test1 {
                 {2, 3, 4, 5}
         };
 
-        int sum1 = 0;
+     //  int sum1 = 0;
 
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        for (int i = 0; i < nejmensi.length; i++) {
-            System.out.println(nejmensi[i][input]);
-            if (sum1 < nejmensi[i][input]) {
-                sum += nejmensi[i][input];
-            }
-        }
-        System.out.println("Nejmensi cislo v sloupci " + input + " je:" + sum1);
+     //  Scanner sc = new Scanner(System.in);
+     //  int input = sc.nextInt();
+     //  for (int i = 0; i < nejmensi.length; i++) {
+     //      System.out.println(nejmensi[i][input]);
+     //      if (sum1 < nejmensi[i][input]) {
+     //          sum += nejmensi[i][input];
+     //      }
+     //  }
+     //  System.out.println("Nejmensi cislo v sloupci " + input + " je:" + sum1);
 
-        ArrayList<Integer> listofstrings = new ArrayList<>();
-        int input1 = sc.nextInt();
-        if (input1 == "konec" || "Konec") {
-            break;
-        }
-        for (int i = 0; i < listofstrings.size(); i++) {
-            if (listofstrings.size() == 8) {
-                System.out.println(listofstrings);
-            }
-        }
+     //  ArrayList<Integer> listofstrings = new ArrayList<>();
+     //  int input1 = sc.nextInt();
+     //  if (input1 == "konec" || "Konec") {
+     //      break;
+     //  }
+     //  for (int i = 0; i < listofstrings.size(); i++) {
+     //      if (listofstrings.size() == 8) {
+     //          System.out.println(listofstrings);
+     //      }
+     //  }
 
 
     }
