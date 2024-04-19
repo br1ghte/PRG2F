@@ -24,7 +24,7 @@ public class ukol2 {
 
     public static void main(String[] args) {
         ukol2 p = new ukol2();
-        System.out.println("Cena bude: " + p.rent(400, 500, 158));
+        System.out.println("Cena bud: " + p.rent(400, 500, 158));
     }
 
 }

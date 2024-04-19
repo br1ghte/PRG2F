@@ -27,7 +27,7 @@ public class ukol1 {
 
     }
         void getBalance() {
-            System.out.println("Na ucte je " + balance);
+            System.out.println("Na ucte j " + balance);
         }
 
         void loan(int amount) {
